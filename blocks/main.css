@@ -34,10 +34,19 @@
     .main{
         max-width: 290px;
         margin: 16px;
+        margin: 64px 16px 0;
     }
     .main__title{
         font-size: 32px;
-        line-height: 1;
+        line-height: 35px;
+    }
+    .main__paragraph_quote-text_left{
+        margin-top: 40px;
+        line-height: 1.25;
+    }
+    .main__paragraph_quote-text_right{
+        margin-top: 10px;
+        position: static;
     }
     .main__paragraph{
         line-height: 1.1;
